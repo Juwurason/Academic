@@ -70,7 +70,7 @@ function HeaderCom(props) {
         >
           <Col className="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
             <Link aria-label="header logo" className="flex items-center" to="/">
-              <Navbar.Brand className="inline-block p-0 m-0">
+              <Navbar.Brand className="inline-block xl:p-0 m-0 md:p-5">
                 <img
                   className="default-logo"
                   width="111"
@@ -89,6 +89,7 @@ function HeaderCom(props) {
                   data-rjs="/assets/img/webp/logo-black@2x.webp"
                   alt="logo"
                 />
+                <span className="mobile-logo font-bold">Smart City</span>
                 {/* <img
                   className="mobile-logo"
                   width="111"
