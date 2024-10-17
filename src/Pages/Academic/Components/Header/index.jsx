@@ -89,7 +89,7 @@ function HeaderCom(props) {
                   data-rjs="/assets/img/webp/logo-black@2x.webp"
                   alt="logo"
                 />
-                <img
+                {/* <img
                   className="mobile-logo"
                   width="111"
                   height="36"
@@ -97,7 +97,7 @@ function HeaderCom(props) {
                   src={`${logo}`}
                   data-rjs="/assets/img/webp/logo-gradient-sky-blue-pink@2x.webp"
                   alt="logo"
-                />
+                /> */}
               </Navbar.Brand>
             </Link>
           </Col>
