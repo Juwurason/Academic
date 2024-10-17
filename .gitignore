@@ -1,0 +1,15 @@
+
+# dependencies
+/node_modules
+/node_modules.zip
+/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# production
+/build
+
