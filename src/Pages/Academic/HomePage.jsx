@@ -21,7 +21,7 @@ import { TabData01 } from "../../Components/Tab/TabData";
 import { IconWithTextData_02 } from "../../Components/IconWithText/IconWithTextData";
 import { TestimonialsData03 } from "../../Components/Testimonials/TestimonialsData";
 import InViewPort from "../../Components/InViewPort";
-import bg1 from "../../Assets/img/img/sch1.jpg";
+import bg1 from "../../Assets/img/img/sch1.jpeg";
 import bg2 from "../../Assets/img/img/sch2.jpg";
 import bg3 from "../../Assets/img/img/sch3.jpg";
 import banner from "../../Assets/img/img/banner.jpg";
