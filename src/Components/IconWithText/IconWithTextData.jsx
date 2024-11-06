@@ -260,19 +260,19 @@ const IconWithTextData_10 = [
 
 const IconWithTextData_11 = [
   {
-    icon: "line-icon-Cursor-Click2  text-fastblue",
+    icon: "",
     title: "Consulting services",
     content:
       "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum text",
   },
   {
-    icon: "line-icon-Archery-2 text-fastblue",
+    icon: "",
     title: "Digital marketing",
     content:
       "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum text",
   },
   {
-    icon: "line-icon-Medal-2 text-fastblue",
+    icon: "",
     title: "Branding identity",
     content:
       "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum text",
