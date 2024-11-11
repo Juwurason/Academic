@@ -261,15 +261,28 @@ const IconWithTextData_10 = [
 const IconWithTextData_11 = [
   {
     icon: "",
-    title: "Consulting services",
-    content:
-      "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum text",
+    title: "Expert HR Services",
+    content: "Recruitment and Staffing",
+    content2: "Talent Management",
+    content3: "Performance Management",
+    title2: "Why Choose Us?",
+    subcontent: "Experienced HR professionals with proven track records",
+    subcontent2: "Customized solutions tailored to your organization's needs",
+    subcontent3: "Cost-effective and efficient services",
+    subcontent4: "Proactive approach to HR challenges",
   },
   {
     icon: "",
-    title: "Digital marketing",
-    content:
-      "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum text",
+    title: "Expert Tutoring Services",
+    content: "NECO, WAEC, JAMB, and University exams preparation",
+    content2:
+      "Mathematics, Physics, Chemistry, Biology, English, and Economics",
+    content3: "Individual and group classes available",
+    title2: "Why Choose Us?",
+    subcontent: "Experienced tutors with proven track records",
+    subcontent2: "Personalized attention and flexible scheduling",
+    subcontent3: "Comprehensive study materials and resources",
+    subcontent4: "Conducive learning environment",
   },
   {
     icon: "",
