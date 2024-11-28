@@ -286,9 +286,15 @@ const IconWithTextData_11 = [
   },
   {
     icon: "",
-    title: "Branding identity",
-    content:
-      "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum text",
+    title: "Expert HR Services",
+    content: "Recruitment and Staffing",
+    content2: "Talent Management",
+    content3: "Performance Management",
+    title2: "Why Choose Us?",
+    subcontent: "Experienced HR professionals with proven track records",
+    subcontent2: "Customized solutions tailored to your organization's needs",
+    subcontent3: "Cost-effective and efficient services",
+    subcontent4: "Proactive approach to HR challenges",
   },
 ];
 export {

@@ -19,36 +19,11 @@ import { IconWithTextData_11 } from "../../Components/IconWithText/IconWithTextD
 import { TestimonialsData02 } from "../../Components/Testimonials/TestimonialsData";
 import bg1 from "../../Assets/img/img/sch1.jpeg";
 import logo from "../../Assets/img/img/logo.png";
+import TutoringCard from "./Components/Card/IconWithText";
 
 const IconWithText = lazy(() =>
   import("../../Components/IconWithText/IconWithText")
 );
-
-const CounterData = [
-  {
-    number: {
-      text: "3650",
-    },
-  },
-];
-
-const AccordionData = [
-  {
-    title: "What do you mean by item and end product?",
-    content:
-      "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever when an unknown printer took a galley. Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    title: "What are some examples of permitted end products?",
-    content:
-      "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever when an unknown printer took a galley. Lorem ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    title: "Am i allowed to modify the item that i purchased?",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod tempor incididunt ut labore et dolore ut enim ad minim veniam, nostrud exercitation. Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore et dolore.",
-  },
-];
 
 const NewHomePage = (props) => {
   return (
@@ -130,7 +105,7 @@ const NewHomePage = (props) => {
       {/* Parallax Section End */}
 
       {/* Section Start */}
-      <div className="pt-[130px] pb-[310px] overflow-hidden relative lg:pt-[95px] lg:pb-[275px] md:py-[75px] sm:py-[50px]">
+      <div className="pt-[130px] pb-[150px] overflow-hidden relative lg:pt-[95px] lg:pb-[275px] md:py-[35px] sm:py-[50px]">
         <Parallax
           className="lg-no-parallax bg-cover absolute left-0 w-full h-full"
           translateY={[-40, 40]}
@@ -167,13 +142,16 @@ const NewHomePage = (props) => {
           <Overlap className="mb-32 sm:mb-28 md:mt-0">
             <Row className="justify-center">
               <Col md={12} sm={8}>
-                <IconWithText
+                {/* <IconWithText
                   grid="row-cols-1 row-cols-lg-3 row-cols-md-2 gap-y-10"
                   theme="icon-with-text-11"
                   data={IconWithTextData_11}
                   animationDelay={0.2}
                   animation={fadeIn}
-                />
+                /> */}
+                <div className="flex justify-center items-center gap-10">
+                  <TutoringCard />
+                </div>
               </Col>
             </Row>
           </Overlap>
@@ -182,7 +160,7 @@ const NewHomePage = (props) => {
       {/* Section End */}
 
       {/* Section Start*/}
-      <m.section
+      {/* <m.section
         className=" md:py-[75px] sm:py-[50px] overflow-hidden bg-lightgray"
         {...fadeIn}
       >
@@ -223,7 +201,7 @@ const NewHomePage = (props) => {
             />
           </Row>
         </Container>
-      </m.section>
+      </m.section> */}
       {/* Section End*/}
 
       {/* Footer Start */}

@@ -79,7 +79,8 @@ const IconWithText = (props) => {
                 {item.subcontent2 && <li>{item.subcontent2}</li>}
                 {item.subcontent3 && <li>{item.subcontent3}</li>}
                 {item.subcontent4 && <li>{item.subcontent4}</li>}
-                {/* {props.theme === "icon-with-text-11" ? (
+
+                {props.theme === "icon-with-text-11" ? (
                   <Buttons
                     ariaLabel="iconwithtext"
                     href="#"
@@ -90,7 +91,7 @@ const IconWithText = (props) => {
                   />
                 ) : (
                   ""
-                )} */}
+                )}
               </div>
               {(item.linkTitle || item.link) && (
                 <Buttons
